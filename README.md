@@ -6,6 +6,8 @@ In the corporate IT environment it is a common security practice to disable user
 
 hidftp is a thought experiment on the topic of data exfiltration - intentional copying of data from a machine which does not allow removable media. It is implemented as a USB-connected SoC that presents itself as a Human Interface Device, and uses a Python ftp-like interface to list, download and upload files to an SD card.
 
+**Disclaimer: this is intended for educational purposes only. Any attempts to circumvent corporate security policies may result in employment and legal penalties.**
+
 ## Setup
 
 This project was created using VSCode/PlatformIO. Python client may have to be run with root privileges to access the USB input device. Tested on Ubuntu 20.04.
